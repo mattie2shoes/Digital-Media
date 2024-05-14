@@ -1,0 +1,66 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>position page</title>
+    <style>
+        div {
+            background: hotpink;
+            width: 400px;
+            height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            padding: 80px;
+
+        }
+
+        .Static {
+            position: static;
+            background-image: url(IMAGES/_\ \(1\).jpeg);
+        
+
+        }
+
+        .Relative {
+            background-image: url(IMAGES/8d0a0f0dc8e5848f984fcdde8e7d79b7.jpg);
+            position: relative;
+            left: 200px;
+            
+        }
+
+        .Fixed {
+            position: fixed;
+            left: 50px;
+            background-image: url(IMAGES/Rock\ Ptarmigan.jpeg);
+            border: 10px solid green;
+            z-index:3;
+
+
+        }
+        .absolute {position:absolute;
+        background-image: url(IMAGES/fdb8e887-fb6c-4c0d-b4f1-f8f1870871d8.jpeg);
+    z-index:1}
+
+        .sticky {
+            background-image: url(IMAGES/3fabb45a-202b-48b4-805e-7a24a01f7de9.jpeg);
+            position: sticky;
+            top:20px;
+           
+        }
+    </style>
+</head>
+
+<body>
+  <div class="sticky">Sticky</div> 
+   <div class="Static">
+        <p>Static</p>
+    </div>
+    <div class="Relative">Relative</div>
+    <div class="Fixed">
+        <p>Fixed</p>
+    </div>
+    
+    <div class="absolute">Absolute</div>
+
+
+
+</body></html>
